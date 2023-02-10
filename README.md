@@ -1,29 +1,33 @@
 # ExpenseTrackerJava
 This is a Java-based expense tracker application that allows you to manage and track your expenses with ease. With its user-friendly interface, you can quickly and efficiently keep a record of your expenses.
 //This is Console-based App , No GUI is Implemented Till Now.
-Expense Tracker
-Expense Tracker is a Java application that helps you manage your expenses and keep track of your spending habits. With its simple and intuitive user interface, you can easily make entries, view logs, set budgets, and keep your financial information organized and secure.
 
-Features
-Make an entry: Easily add new expenses by entering the date, description, and amount spent.
+Expense Tracker in Java
+Expense Tracker is a simple Java-based console application that helps you keep track of your daily expenses. It has the following features:
 
-Get expenses for a particular date: Quickly view the expenses you've made on a specific date to see where your money is going.
+Make an entry: You can make an entry for each expense you make by providing the date, category, and amount.
 
-Get a log of a particular month: Stay on top of your spending habits by viewing all expenses made in a particular month.
+Get expenses for a particular date: You can retrieve all the expenses made on a particular date by providing the date as input.
 
-Check expenses of a particular month: Get a summary of all expenses made in a particular month and track your spending against your budget.
+Get a log of a particular month: You can retrieve the expense log for a particular month by providing the month and year as input.
 
-Set budget: Set a budget for each month and track your expenses to make sure you're staying within your means.
+Check expenses for a particular month: You can check the total expenses for a particular month by providing the month and year as input.
 
-Delete a particular month's log: Easily remove old or irrelevant expense logs to keep your records organized and up-to-date.
+Set budget: You can set a budget for each month to keep track of your expenses and compare it with the actual expenses.
 
-Change password: Keep your financial information secure by changing your password whenever you need to.
+Delete a particular month's log: You can delete the expense log for a particular month by providing the month and year as input.
 
+Change password: You can change the password for the application to keep your data secure.
+
+The application is executed by running the mainUI.java file, and it currently runs only in the console without any GUI. However, the possibility of adding a GUI in the future cannot be ruled out.
+
+Requirements
+Java SE 8 or higher
+Any Java IDE (e.g. Eclipse, IntelliJ IDEA)
 Installation
-To use Expense Tracker, you'll need to have Java and a Java Development Kit (JDK) installed on your machine. Once you have these, simply clone the repository and run the application.
-
-Usage
-With Expense Tracker, managing your expenses is easy. Simply follow the on-screen instructions to make entries, view logs, set budgets, and more. Whether you're just getting started with budgeting or you're a seasoned pro, Expense Tracker has everything you need to keep your finances on track.
+Clone the repository to your local machine.
+Import the project into your preferred Java IDE.
+Run the mainUI.java file to start the application.
 
 Contributions
-If you'd like to contribute to the development of Expense Tracker, we'd love to hear from you! Whether you have suggestions for new features, bug reports, or any other feedback, please don't hesitate to reach out.
+Contributions are always welcome! If you have any suggestions or improvements, feel free to open a pull request.
